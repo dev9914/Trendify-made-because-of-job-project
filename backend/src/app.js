@@ -10,13 +10,13 @@ const app = express();
 // }))
 // app.use(cors())
 
-const corsOptions = {
-    origin: ['https://trendify-made-because-of-job-project-1.onrender.com', 'https://trendify-made-because-of-job-project.onrender.com',], // Replace with your client URL
-    methods: ['GET', 'POST','PATCH','DELETE'],
-    credentials: true
-  };
+// const corsOptions = {
+//     origin: ['https://trendify-made-because-of-job-project-1.onrender.com', 'https://trendify-made-because-of-job-project.onrender.com',], // Replace with your client URL
+//     methods: ['GET', 'POST','PATCH','DELETE'],
+//     credentials: true
+//   };
   
-  app.use(cors(corsOptions));
+  app.use(cors());
 
 app.use(express.json({limit:'16kb'}))
 app.use(express.urlencoded({extended:true}))
