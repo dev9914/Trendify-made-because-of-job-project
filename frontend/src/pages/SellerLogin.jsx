@@ -86,7 +86,7 @@ const SellerLogin = () => {
             </div>
             <div className='flex flex-col mt-4'>
                 <label htmlFor="" className='text-gray-500 ml-1 text-md mb-2 font-sans font-semibold'>Password</label>
-                <input autoComplete="off" type="text" value={password} onChange={handleInputChange} name="password" id="" className='bg-black text-sm placeholder-opacity-5 text-gray-200 h-10 pl-3 rounded-lg' placeholder='• • • • • •' />
+                <input autoComplete="off" type="password" value={password} onChange={handleInputChange} name="password" id="" className='bg-black text-sm placeholder-opacity-5 text-gray-200 h-10 pl-3 rounded-lg' placeholder='• • • • • •' />
             </div>
             {error && <p className='text-red-600 ml-4'>{error}</p>}
             <div className='mt-3'>
