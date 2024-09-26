@@ -17,8 +17,9 @@ const app = express();
 //   };
   
   app.use(cors({
-    origin:"*",
-    methods:['GET,PATCH,POST,DELETE,PUT']
+    origin: ['https://trendify-made-because-of-job-project-1.onrender.com', 'https://trendify-made-because-of-job-project.onrender.com',],
+    methods:['GET,PATCH,POST,DELETE,PUT'],
+    credentials: true,
   }
   ));
 
