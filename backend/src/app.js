@@ -11,7 +11,7 @@ const app = express();
 // app.use(cors())
 
 const corsOptions = {
-    origin: ['http://localhost:4000', 'https://trendify-made-because-of-job-project.onrender.com'], // Replace with your client URL
+    origin: ['http://localhost:4000', 'https://trendify-made-because-of-job-project.onrender.com','https://trendify-made-because-of-job-project-1.onrender.com'], // Replace with your client URL
     methods: ['GET', 'POST','PATCH','DELETE'],
   };
   
